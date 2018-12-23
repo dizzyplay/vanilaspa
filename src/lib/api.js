@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-class API {
+class Api {
   constructor() {
     this.Server = axios.create({
       baseURL: 'http://10.0.1.13:8000'
@@ -18,4 +18,4 @@ class API {
   }
 }
 
-export default API;
+export default Api;

@@ -1,12 +1,12 @@
 import App from './lib/app.js';
 import Router from './lib/router.js'
-import API from './lib/API.js'
+import Api from './lib/api.js'
 
 import Home from './components/home.js'
 
 
 const app = new App('#app');
-const api = new API();
+const api = new Api();
 
 const postTemplate = (post) => `
   <div>
